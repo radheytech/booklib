@@ -4,7 +4,10 @@ import com.example.library.model.Borrower;
 import com.example.library.service.BorrowerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+import com.cola.librarymanagementapi.model.Borrower;
+import com.cola.librarymanagementapi.model.Book;
+import com.cola.librarymanagementapi.service.BorrowerService;
+import com.cola.librarymanagementapi.service.BookService;
 import java.util.List;
 
 /**

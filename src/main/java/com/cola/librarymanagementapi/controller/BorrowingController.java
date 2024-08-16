@@ -6,7 +6,10 @@ import com.example.library.service.BookService;
 import com.example.library.service.BorrowerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+import com.cola.librarymanagementapi.model.Borrower;
+import com.cola.librarymanagementapi.model.Book;
+import com.cola.librarymanagementapi.service.BorrowerService;
+import com.cola.librarymanagementapi.service.BookService;
 /**
  * @author radhey
  */
