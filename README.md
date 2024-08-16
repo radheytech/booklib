@@ -22,5 +22,5 @@ A RESTful API for managing a simple library system. This API allows users to reg
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/radheytech/library-management-api.git
+git clone [https://github.com/radheytech/library-management-api.git](https://github.com/radheytech/booklib.git)
 cd library-management-api
