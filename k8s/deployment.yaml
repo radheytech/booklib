@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: library-management-api-deployment
+  labels:
+    app: library-management-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: library-management-api
+  template:
+    metadata:
+      labels:
+        app: library-management-api
+    spec:
+      containers:
+        - name: library-management-api
+          image: cola123/library-management-api:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: "prod"
